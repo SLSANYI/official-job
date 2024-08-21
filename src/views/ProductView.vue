@@ -103,11 +103,21 @@ const list = [
 <template>
   <OfficialLayout>
     <BannerBlock>
-      <div class="mt-28 pl-6">
+      <BannerText
+        class="text-white"
+        title="让招聘成为企业增长驱动力"
+        :subList="[
+          '一站式招聘流程管理',
+          '构建畅通的人企互动模式',
+          '定制化招聘解决方案',
+          '提升企业人才获取竞争力'
+        ]"
+      />
+      <!-- <div class="mt-28 pl-6">
         <h2 class="mb-6 text-[40px] text-white">让招聘成为企业增长驱动力</h2>
         <p class="mb-2 text-[19px] text-white">一站式招聘流程管理，构建畅通的人企互动模式</p>
         <p class="text-[19px] text-white">定制化招聘解决方案，提升企业人才获取竞争力</p>
-      </div>
+      </div> -->
     </BannerBlock>
     <section :class="i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f5]'" v-for="(item, i) in list" :key="i">
       <NormalBlock :item="item" :reverse="i % 2 !== 0" />

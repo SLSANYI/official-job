@@ -1,6 +1,4 @@
-<script setup>
-import BannerText from '@/components/BannerText.vue'
-</script>
+<script setup></script>
 
 <template>
   <!-- ipad/pc -->
@@ -12,7 +10,7 @@ import BannerText from '@/components/BannerText.vue'
     <div
       class="absolute left-0 top-0 flex h-full w-full items-center justify-around overflow-hidden"
     >
-      <BannerText class="shrink-0" />
+      <slot />
       <img
         src="../assets/banner-img.png"
         class="hidden w-[35%] shrink-0 md:block"
@@ -23,6 +21,6 @@ import BannerText from '@/components/BannerText.vue'
   </section>
   <!-- mobile -->
   <section class="bg-[url('../assets/banner.jpg')] bg-cover bg-no-repeat py-20 md:hidden">
-    <BannerText />
+    <slot />
   </section>
 </template>

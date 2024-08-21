@@ -1,6 +1,7 @@
 <script setup>
 import OfficialLayout from '@/components/OfficialLayout.vue'
 import BannerBlock from '@/components/BannerBlock.vue'
+import BannerText from '@/components/BannerText.vue'
 import NormalBlock from '@/components/NormalBlock.vue'
 import Img01 from '../assets/img01.png'
 import Img02 from '../assets/img02.png'
@@ -61,7 +62,17 @@ const list = [
 
 <template>
   <OfficialLayout>
-    <BannerBlock />
+    <BannerBlock>
+      <BannerText
+        title="智能化招聘管理系统"
+        :subList="[
+          '灵活自定义招聘流程',
+          '打造通畅的人才企业互动模式',
+          '优化企业招聘的各个环节',
+          '从细节出发，提升招聘效率'
+        ]"
+      />
+    </BannerBlock>
     <!--  -->
     <!-- <section :class="i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f5]'" v-for="(item, i) in list" :key="i">
       <NormalBlock :item="item" :reverse="i % 2 === 0" />
