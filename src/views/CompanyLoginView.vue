@@ -46,9 +46,7 @@ const submitForm = async (formEl) => {
 <template>
   <OfficialLayout>
     <div class="h-[700px] bg-gray-100 pt-20">
-      <section
-        class="mx-auto flex h-[550px] w-[1200px] items-center justify-center bg-white shadow-slate-900"
-      >
+      <section class="mx-auto flex h-[550px] items-center justify-center bg-white shadow-slate-900">
         <div class="w-1/2 p-14">
           <el-form
             ref="loginFormRef"

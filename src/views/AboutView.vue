@@ -25,7 +25,7 @@ import { Position, Flag, Message, Platform, Medal, Timer } from '@element-plus/i
       </p>
     </div>
     <div class="bg-gray-50">
-      <div class="mx-auto max-w-[1200px] py-24">
+      <div class="max- mx-auto py-24">
         <div class="text-center text-[30px]">企业文化</div>
         <div
           class="mt-12 flex gap-14 px-20"

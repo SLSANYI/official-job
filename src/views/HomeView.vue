@@ -61,27 +61,10 @@ const list = [
 
 <template>
   <OfficialLayout>
+    <BannerBlock />
     <!--  -->
-    <BannerBlock>
-      <div class="flex h-full w-full justify-around gap-20">
-        <div class="mt-28">
-          <h2 class="mb-6 text-[40px] text-[#333]">智能化招聘管理系统</h2>
-          <p class="mb-2 text-[19px] text-[#333]">
-            灵活自定义招聘流程， 打造通畅的人才企业互动模式
-          </p>
-          <p class="text-[19px] text-[#333]">优化企业招聘的各个环节，从细节出发，提升招聘效率</p>
-        </div>
-        <img
-          src="../assets/banner-img.png"
-          class="mt-20 max-h-[311px] max-w-[600px]"
-          alt="banner-img"
-          v-in="'duration-1000 animate-in slide-in-from-top-full'"
-        />
-      </div>
-    </BannerBlock>
-    <!--  -->
-    <section :class="i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f5]'" v-for="(item, i) in list" :key="i">
+    <!-- <section :class="i % 2 === 0 ? 'bg-white' : 'bg-[#f5f5f5]'" v-for="(item, i) in list" :key="i">
       <NormalBlock :item="item" :reverse="i % 2 === 0" />
-    </section>
+    </section> -->
   </OfficialLayout>
 </template>

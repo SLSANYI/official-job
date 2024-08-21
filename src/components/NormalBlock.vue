@@ -16,7 +16,7 @@ defineProps({
 <template>
   <section class="py-24" :class="reverse ? 'bg-white' : 'bg-[#f5f5f5]'">
     <div
-      class="mx-auto flex h-full w-[1200px] items-center justify-around"
+      class="mx-auto flex h-full items-center justify-around"
       :class="reverse ? 'flex-row' : 'flex-row-reverse'"
     >
       <div class="w-max-[500px] flex flex-shrink-0 justify-center">

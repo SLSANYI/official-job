@@ -21,7 +21,7 @@ const props = defineProps({
 const navContainerVar = cva('', {
   variants: {
     type: {
-      official: 'mx-auto flex h-16 w-[1200px] items-center justify-between gap-4 px-4',
+      official: 'mx-auto flex h-16  items-center justify-between gap-4 px-4',
       admin: 'flex h-16 items-center justify-between gap-4 px-4'
     }
   }
