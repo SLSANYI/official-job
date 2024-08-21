@@ -1,0 +1,1 @@
+import{b as s,g as o,C as a}from"./index-CcbdXH3D.js";const p={__name:"CompanyFirstView",setup(n){const e=s();return console.log(o()),o()?e.push({name:a}):e.replace({name:"company-login"}),(r,t)=>"?"}};export{p as default};

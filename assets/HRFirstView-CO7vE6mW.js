@@ -1,0 +1,1 @@
+import{b as o,g as r}from"./index-CcbdXH3D.js";const c={__name:"HRFirstView",setup(s){const e=o();return console.log(r()),r()?e.push({name:"hr-dashboard"}):e.replace({name:"hr-login"}),(t,a)=>"?"}};export{c as default};
